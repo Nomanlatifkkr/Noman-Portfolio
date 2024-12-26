@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noman</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Social Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <a href="#home" id="Logo"><span>Noman</span></a>
+        <nav class="navbar">
+            <a href="#homeclass" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skill</a>
+            <a href="#services" class="nav-link">Services</a>
+            <a href="#contact" class="nav-link">Contact us</a>
+        </nav>
+        <div class="hamburger" onclick="toggleNavbar()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+    <main class="herosection" id="homeclass">
+        <div class="homesection">
+            <h3>Hello! it's ME </h3>
+            <h1>Noman Latif</h1>
+            <h1 id="ani">
+                I'M A
+                <a style="text-decoration: none; color: #0cbbe2;;" href="" class="typewrite" data-period="2000"
+                    data-type='["MERN stack Developer", "FRONTEND React Developer", "Wordpress php Website Designer ." ]'>
+                    <span class="wrap"></span>
+                </a>
+            </h1>
+            <p>I am a Web Developer skilled in the MERN stack, PHP, and WordPress.
+                <!-- Social Media Icons -->
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                <!-- Button -->
+                <a href="#contact" class="cta-button">Contact Me</a>
+            </p>
+        </div>
+        <div class="Home-pic">
+            <img src="./Assit/Untitled design.png" alt="Noman">
+        </div>
+    </main>
+    <hr>
+    <section id="about" class="about-section">
+
+        <div class="about-content">
+            <h2>About Me</h2>
+            <p>Hi! I'm Noman Latif, a passionate web developer skilled in building modern web applications. I specialize
+                in using the MERN stack, WordPress, and PHP to create dynamic, user-friendly websites. I have a strong
+                background in frontend and backend development, and I'm always looking to learn and grow in the
+                ever-changing world of technology.</p>
+            <p>With a deep understanding of HTML, CSS, JavaScript, React, Node.js, Express.js, and MongoDB, I can bring
+                your ideas to life and help your business achieve its goals.</p>
+            <p>When I'm not coding, you can find me exploring new technologies, reading about the latest trends in web
+                development, or working on personal projects.</p>
+        </div>
+        <div class="about-image">
+            <img src="/Assit/Untitled design.png" alt="Noman Latif">
+        </div>
+    </section>
+    <hr>
+    <section id="skills" class="skills-section">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <img src="/Assit/react/react-original.svg" alt="React" class="skill-icon">
+                <p>React</p>
+            </div>
+            <div class="skill">
+                <img src="Assit/nodejs/nodejs-original.svg" alt="Node.js" class="skill-icon">
+                <p>Node.js</p>
+            </div>
+            <div class="skill">
+                <img src="/Assit/express/express-js1720895488.logowik.com.webp" alt="Express" class="skill-icon">
+                <p>Express</p>
+            </div>
+            <div class="skill">
+                <img src="/Assit/mongodb/mongodb-original.svg" alt="MongoDB" class="skill-icon">
+                <p>MongoDB</p>
+            </div>
+            <div class="skill">
+                <img src="/Assit/mysql/mysql-original.svg" alt="MySQL" class="skill-icon">
+                <p>MySQL</p>
+            </div>
+            <div class="skill">
+                <img src="/Assit/php/php-original.svg" alt="PHP" class="skill-icon">
+                <p>PHP</p>
+            </div>
+
+            <div class="skill">
+                <img src="/Assit/wordpress/wordpress-plain.svg" alt="WordPress" class="skill-icon">
+                <p>WordPress</p>
+            </div>
+            <div class="skill">
+                <img src="/Assit/photoshop/photoshop-original.svg" alt="Photoshop" class="skill-icon">
+                <p>Photoshop</p>
+            </div>
+            <div class="skill">
+                <img src="/Assit/css3/css3-original.svg" alt="CSS" class="skill-icon">
+                <p>CSS</p>
+            </div>
+            <div class="skill">
+                <img src="/Assit/javascript/javascript-original.svg" alt="JavaScript" class="skill-icon">
+                <p>JavaScript</p>
+            </div>
+            <div class="skill">
+                <img src="/Assit/html5/html5-original.svg" alt="HTML" class="skill-icon">
+                <p>HTML</p>
+            </div>
+        </div>
+    </section>
+    <section id="services" class="services-section">
+        <h2>My Services</h2>
+        <div class="services-container">
+            <div class="service-card">
+                <i class="fa fa-code service-icon"></i>
+                <h3>Web Development</h3>
+                <p class="price">$300+</p>
+                <ul class="service-list">
+                    <li>Responsive Design</li>
+                    <li>Frontend & Backend</li>
+                    <li>SEO Optimization</li>
+                </ul>
+                <a href="#" class="service-btn">Learn More</a>
+            </div>
+            <div class="service-card">
+                <i class="fa fa-shopping-cart service-icon"></i>
+                <h3>E-commerce Solutions</h3>
+                <p class="price">$500+</p>
+                <ul class="service-list">
+                    <li>WooCommerce Setup</li>
+                    <li>Shopify Store Design</li>
+                    <li>Payment Integration</li>
+                </ul>
+                <a href="#" class="service-btn">Learn More</a>
+            </div>
+            <div class="service-card">
+                <i class="fa fa-paint-brush service-icon"></i>
+                <h3>Graphic Design</h3>
+                <p class="price">$200+</p>
+                <ul class="service-list">
+                    <li>Brand Identity</li>
+                    <li>Social Media Posts</li>
+                    <li>Logo Design</li>
+                </ul>
+                <a href="#" class="service-btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <section class="contact-section" id="contact">
+        <div class="contact-container">
+            <h2>Contact Us</h2>
+            <p>We would love to hear from you! Fill out the form below and we'll get back to you shortly.</p>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <p><strong>Email:</strong> contact@yourdomain.com</p>
+                <p><strong>Phone:</strong> +123 456 7890</p>
+                <p><strong>Address:</strong> 123 Street, City, Country</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
